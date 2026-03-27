@@ -1,5 +1,5 @@
 ---
-title: "Landsat"
+title: "Landsat Program"
 subtitle: "Sensor Summary, Application, and Reflection"
 output:
   xaringan::moon_reader:
@@ -47,7 +47,7 @@ hr {
 .small { font-size: 70%; }
 </style>
 
-# 1. Introduction: The Landsat Legacy
+# 1. The Landsat Legacy
 
 The Landsat program represents the longest continuous space-based record of Earth’s land surface, spanning over 50 years.
 
@@ -58,12 +58,12 @@ The Landsat program represents the longest continuous space-based record of Eart
 
 ---
 
-# 2. Summary: OLI & TIRS Sensors
+# 2. OLI & TIRS Sensors
 
 The **OLI** sensor captures data in the visible, near-infrared, and shortwave-infrared regions, while **TIRS** measures land surface temperature.
 
 * **Resolution:** 30m multispectral (standard), 15m panchromatic, and 100m thermal.
-* **Independent Thought:** The shift from "whisk-broom" to "push-broom" in OLI significantly improved the Signal-to-Noise Ratio (SNR). However, I believe this creates a high reliance on complex **pre-launch detector characterization**, as any single dead detector in the array creates a persistent "stripe" in the imagery.
+* The shift from "whisk-broom" to "push-broom" in OLI improved the Signal-to-Noise Ratio (SNR). However, I believe this creates a high reliance on complex **pre-launch detector characterization**, as any single dead detector in the array creates a persistent "stripe" in the imagery.
 
 ---
 
@@ -83,51 +83,26 @@ The **OLI** sensor captures data in the visible, near-infrared, and shortwave-in
 
 * **Purpose:** Using the **TIRS** sensor to measure how urban sprawl increases local temperatures.
 * **Mechanism:** Thermal bands allow for the derivation of Land Surface Temperature (LST).
-* **Impact:** These studies highlight the "equity gap" in urban cooling, showing that lower-income neighborhoods often have less canopy cover and higher Landsat-derived heat signatures than affluent areas.
+* **Impact:** These studies highlight the equity gap in urban cooling, showing that lower-income neighborhoods often have less canopy cover and higher Landsat-derived heat signatures than affluent areas.
 
 ---
 
-# 5. Application: Coastal Bathymetry
+# 5. Reflection: The Power of Open Data
 
-**Study:** Mapping Shallow Water Habitats using the "Coastal Aerosol" Band.
+Sensors capabilities are only half the story; the other half is the **Data Policy**.
 
-* **Purpose:** Landsat 8/9 introduced Band 1 (0.43–0.45 μm) specifically for water penetration.
-* **Insight:** This band is sensitive enough to penetrate the water column, allowing for the mapping of seafloor features.
-* **Critical View:** While the 30m resolution is too coarse for detailed reef architecture, it is excellent for monitoring **sediment plumes** and broad habitat shifts over decades.
-
----
-
-# 6. Reflection: The Power of Open Data
-
-What I have learned through this module is that a sensor's technical specs are only half the story; the other half is the **Data Policy**.
-
-* **The Shift:** In 2008, the USGS made the Landsat archive free. This taught me that the "value" of a sensor is multiplied by its accessibility.
-* **Democratization:** Because the data is free, researchers in the Global South can monitor their own natural resources without expensive commercial licenses. This has shifted my perspective on Remote Sensing from a "pure science" to a "geopolitical equalizer."
+* In 2008, the USGS made the Landsat archive free. This taught me that the "value" of a sensor is multiplied by its accessibility.
+* **Democratization:** Because the data is free, researchers in the Global South can monitor their own natural resources without expensive commercial licenses.
 
 ---
 
-# 7. Reflection: Integration & Future Use
+# 6. Reflection: Integration & Future Use
 
-Reflecting on how Landsat data will be used in my future work:
-
-* **Harmonization:** I have realized that the future of the field is "Sensor Agnosticism." We are moving toward the **Harmonized Landsat Sentinel (HLS)** product.
-* **Future Work:** I intend to explore how Landsat’s thermal data can be combined with high-frequency vegetation indices from Sentinel-2 to predict agricultural drought stress with higher temporal precision than either sensor could achieve alone.
-
+In my future work I would love to explore more Landsat's thermal data and combine it with spectral data. Especially in case of measuring the green cover of the cities- to measure not only the greenness, but also the cooling effect it creates. 
 ---
 
-# 8. Critical Synthesis
+# 7. Conclusion
 
-Is Landsat still the "best" sensor in 2026? 
-
-* **Coherence:** It remains the only sensor that provides a coherent narrative of Earth's changes since the 1970s. 
-* **Reliability:** While private companies offer higher spatial resolution, they often lack the **rigorous onboard calibration** that makes Landsat data a trusted scientific record.
-* **Broad Context:** It is the "anchor" for the entire Earth Observation ecosystem.
-
----
-
-# 9. Conclusion
-
-The Landsat OLI/TIRS sensors are more than just cameras in space; they are calibrated scientific instruments that record the history of our planet.
 
 * **The Sensor:** Advanced push-broom technology with superior radiometric stability.
 * **The Application:** Essential for global forest monitoring and urban climate mitigation.
@@ -138,7 +113,6 @@ The Landsat OLI/TIRS sensors are more than just cameras in space; they are calib
 # References
 
 .small[
-* Gutman, G., et al. (2013). The modern Landsat era: The Operational Land Imager. *Remote Sensing of Environment*.
 * Hansen, M. C., et al. (2013). High-Resolution Global Maps of 21st-Century Forest Cover Change. *Science*.
 * USGS (2024). Landsat 9 Mission Overview. [Online].
 * Wulder, M. A., et al. (2019). Current status of Landsat program, science, and applications. *Remote Sensing of Environment*.
